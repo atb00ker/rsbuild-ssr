@@ -1,0 +1,47 @@
+{
+  "name": "rsbuild-ssr",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "rsbuild-ssr": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "Ajay Tripathi <ajay39in+rebuildssr@gmail.com>",
+  "description": "Rsbuild with SSR",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atb00ker/rsbuild-ssr"
+  },
+  "bugs": {
+    "url": "https://github.com/atb00ker/rsbuild-ssr/issues"
+  },
+  "homepage": "https://github.com/atb00ker/rsbuild-ssr#readme",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "dependencies": {
+    "@rsbuild/core": "^1.1.8",
+    "@rsbuild/plugin-react": "^1.0.7",
+    "express": "^4.21.1",
+    "node": "^22.12.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.1",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2",
+    "yaml": "^2.6.1"
+  },
+  "keywords": [
+    "rsbuild",
+    "ssr",
+    "server-side-rendering",
+    "react"
+  ]
+}
